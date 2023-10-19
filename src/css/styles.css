@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Amatic SC', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* HEADER CONTENT */
+
+header,
+.footer-nav {
+    background-color: #a0d5dd;
+    padding: 0;
+    align-items: center;
+    border-bottom: 3px solid #b0921c;
+    border-top: 3px solid #b0921c;
+}
+
+ul {
+    padding: .25rem;
+    margin: auto;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: auto;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: .5rem;
+}
+
+ul li a:hover,
+.bh-nav:hover,
+.activities-nav:hover,
+.photo-nav:hover {
+    color: #1c7cb0;
+}
+
+h1,
+.header-h2 {
+    text-align: center;
+    color: #b0921c;
+    text-shadow: 1px 1px 1px #a0d5dd;
+    margin: 0;
+}
+
+.header-h1 {
+    border-bottom: 2px solid #a0d5dd;
+}
+
+.header-h2 {
+    font-family: 'Reenie Beanie', serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: .25rem;
+}
+
+.header-img,
+.beach-house-front,
+.pb-gaskin-no-bridge,
+.grands-funny,
+.bh-front,
+.bh-lr,
+.bh-pool,
+.bh-heather,
+.bh-games,
+.bh-siblings,
+.bh-hs,
+.pcb-img,
+.bf-shovel {
+    width: 100%;
+    padding: .5rem;
+    border: 2px solid #b0921c;
+    border-radius: 10px;
+}
+
+.header-p {
+    font-family: 'Reenie Beanie', serif;
+    text-align: center;
+    color: #0c0c0b;
+    text-shadow: 1px 1px 1px #a0d5dd;
+    border: 2px solid #a0d5dd;
+    border-radius: 10px;
+    margin: auto;
+    padding: .5rem;
+}
+
+hr {
+    border: 1px solid #b0921c;
+    margin: .5rem 0;
+}
+
+/* MAIN CONTENT */
+
+h2 {
+    margin: 0;
+    padding: 0 .5rem .5rem;
+    text-decoration: underline;
+}
+
+.bh-nav,
+.activities-nav,
+.photo-nav {
+    text-decoration: none;
+    color: #1cb070;
+    font-weight: bolder;
+}
+
+.beach-house-p,
+.activities-p,
+.photo-p {
+    font-family: 'Reenie Beanie', serif;
+    margin: auto;
+    padding: 0 .5rem .5rem;
+}
+
+/* FOOTER CONTENT */
+
+.footer-p {
+    margin: 0;
+    padding: .25rem;
+    font-size: .75rem;
+    font-weight: bolder;
+}
+
+/* BEACH HOUE HTML PAGE CONTENT */
+
+.bh-h1 {
+    margin: .25rem 0 0 0;
+}
+
+/* ACTIVITIES HTML PAGE CONTENT */
